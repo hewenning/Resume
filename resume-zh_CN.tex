@@ -1,0 +1,103 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{贺文宁}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{h919313096@gmail.com}{152-0290-0250}{MyBlog：hewenning.com}{GitHub @hewenning}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{教育背景}
+\datedsubsection{\textbf{西安理工大学},电子科学与技术,学士，专业前30\%\textit{}}{2015.9 - 2018.7}
+
+
+
+\section{实习和项目经历}
+\datedsubsection{\textbf{松山湖国际机器人研究院-Software Engineer Intern|}技术栈：C++，Qt，Socket}{2017.7-2017.8}
+\begin{itemize}
+  \item 参考旧版MFC框架，利用Qt框架设计新的AGV无人搬运车的调度软件
+  \item 参与整体调度系统的设计，并提出一些实现想法
+\end{itemize}
+
+
+\datedsubsection{\textbf{基于Turtlebot2机器人的人体姿态识别研究|}技术栈：Python，Linux，ROS，TensorFlow，Andriod}{2017.3-2017.12}
+\begin{itemize}
+  \item 完成机器人的部署和搭建，包括ROS环境和硬件平台
+  \item 配置单目相机的驱动，并用此进行图像数据的收集，与人体姿态识别负责人进行对接
+\end{itemize}
+
+\datedsubsection{\textbf{Learning-Log|}技术栈：Python，Django，Bootstrap}{2016.11-2016.12}
+\begin{itemize}
+	\item 利用Django框架中的表单来完成登陆注册的后台逻辑，使用Bootstrap来美化界面
+	\item 尽可能地重构代码，并进行单元测试，代码地址：\textit{https://github.com/hewenning/Learning-Logm}
+\end{itemize}
+
+\datedsubsection{\textbf{助老平台APP|}技术栈：C++，OpenCV，Android NDK，Bmob}{2017.5-2017.12}
+\begin{itemize}
+  \item 利用OpenCV设计一个可以提取身份证号信息的算法，并利用Java中的JNI层调用身份证号OCR算法，
+  将其设计成一个可供Android端调用的API
+  \item 利用Bmob进行后端的部署，完成可以互相接收语音消息的基本功能
+\end{itemize}
+
+\datedsubsection{\textbf{可穿戴智能设备|}技术栈：C，Arduino，GSM，Android}{2016.12-2017.5}
+\begin{itemize}
+	\item 通过Arduino的IO口检测加速度传感器的瞬时异常加速度变化，发送报警短信
+	\item 当收到报警短信时，在高德地图上定位出报警点
+\end{itemize}
+
+
+
+
+\section{获奖经历}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 大学参与了一些科研训练，有一篇比较水的论文和一篇未发但是参与的关于ELM的论文
+  \item Robomasters2016全国大学生机器人大赛全国三等奖。
+  \item Robomasters2016全国大学生机器人大赛西部赛区一等奖。
+  \item 校科技节一等奖。
+  \item 优秀志愿者荣誉若干。
+  \item 个人博客\textit{http://www.hewenning.com}，更多小玩具见 \textit{https://github.com/hewenning}
+\end{itemize}
+
+
+
+\section{社区实践}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 乐于参与开源社区活动，喜欢做开源分享,是我们学校的Linux社的发起人，影响了一些学生开始接触开源项目
+  \item 大学期间暑期期间去山村支教，至今仍然和那里的一些孩子有联系
+  \item 校机器人俱乐部成员、校青年志愿者协会文宣部负责人、校网络新闻工作室负责人
+  \item 在知乎写文章和回答问题，到现在已经有1000+关注，3600+赞同和2100+收藏，有自己的写作专栏并收到过写书邀请，
+  知乎主页：\textit{https://www.zhihu.com/people/hewenning/activities}
+\end{itemize}
+
+
+
+\section{IT技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+	\item \textbf{编程语言}: Python、C++、Java
+	\item \textbf{平台}: Linux、Windows、Android
+	\item \textbf{数据库}: MySQL、Redis
+	\item \textbf{其他}:MCU、Arduino、ROS
+\end{itemize}
+
+
+
+\section{个人总结}
+本人是电子科学与技术专业，在校成绩优秀，具有扎实的半导体、集成电路和计算机基础知识；对算法有极大的热情和兴趣，平时会总结自己写些文字，喜欢接受挑战，研究新的技术，自我驱动力强
+
+\end{document}
