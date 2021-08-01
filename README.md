@@ -1,2 +1,2 @@
 # Resume
-“hewenning_Software_Engineer.pdf” is my resume.
+“hewenning_Game_Developer.pdf” is my resume.
